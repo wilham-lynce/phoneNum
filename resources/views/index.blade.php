@@ -20,5 +20,5 @@
     <textarea class="form-control rounded-0" id="Textarea2" rows="10"></textarea>
  </div>
 </body>
-<script type="text/javascript" src="{{asset('run.js')}}"></script>
+<script type="text/javascript" src="{{secure_asset('run.js')}}"></script>
 @endsection
