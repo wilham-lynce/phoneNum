@@ -1,0 +1,66 @@
+textarea {
+    margin-top: 10%;
+    /* margin-left: 150px; */
+    width: 30%;
+    min-height: 400px;
+    resize: none;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    color: #666;
+    box-shadow: inset 0 0 0.25rem #ddd;
+      /* &:focus {
+          outline: none;
+          border: 1px solid darken(#ddd, 5%);
+          box-shadow: inset 0 0 0.5rem darken(#ddd, 5%);
+      }
+      &[placeholder] { 
+          font-style: italic;
+          font-size: 0.875rem;
+      } */
+}
+#Textarea1{
+  margin-left: 20%;
+  width: 50%;
+  background: url(http://i.imgur.com/2cOaJ.png);
+background-attachment: local;
+background-repeat: no-repeat;
+padding-left: 35px;
+padding-top: 10px;
+    border-color:#ccc;
+    font-size: 12px;
+    line-height: 16px; 
+}
+#Textarea2{
+  margin-left: 20%;
+  width: 50%;
+  background: url(http://i.imgur.com/2cOaJ.png);
+background-attachment: local;
+background-repeat: no-repeat;
+padding-left: 35px;
+padding-top: 10px;
+    border-color:#ccc;
+    font-size: 12px;
+    line-height: 16px; 
+}
+
+
+  
+  #the-count {
+    float: right;
+    padding: 0.1rem 0 0 0;
+    font-size: 0.875rem;
+  }
+
+.custom-select{
+  width: 200px;
+  margin-left: 30%;
+}
+
+.btn-info{
+  height: fit-content;
+  width: 150px;
+  margin-left: 30%;
+}
+
+  
