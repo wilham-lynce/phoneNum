@@ -32,6 +32,7 @@ padding-top: 10px;
     line-height: 16px; 
 }
 #Textarea2{
+  margin-top: auto;
   margin-left: 20%;
   width: 50%;
   background: url(http://i.imgur.com/2cOaJ.png);
@@ -63,4 +64,13 @@ padding-top: 10px;
   margin-left: 30%;
 }
 
+#phoneInput{
+  width: 350px;
+  margin-left: 35%;
+  margin-top: 5%;
+}
+
+#btnformat{
+ 
+}
   

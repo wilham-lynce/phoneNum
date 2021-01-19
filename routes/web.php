@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PhoneInput;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +15,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'index');
-Route::view('/trial', 'rough');
+Route::get('/', [PhoneInput::class,'regions']);
+Route::view('/trial', 'sketch');
+
+Route::get('/trial', [PhoneInput::class,'internationalFormat']);
+// Route::get('/trial', [PhoneInput::class,'nationalFormat']);                                                                                                              
+

@@ -3,6 +3,8 @@
 
 <!DOCTYPE html>
 <html>
+
+
   <head>
     <meta charset="UTF-8">
     <title>Comma Separator</title>
@@ -52,6 +54,7 @@
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="index.js"></script>
   </body>
+ 
 </html>
 <script type="text/javascript" src="{{asset('rough.js')}}"></script>
 @endsection
