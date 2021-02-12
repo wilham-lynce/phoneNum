@@ -20,14 +20,14 @@
         </tr>
         </thead>
         <tbody>
-            <tr>
-            <td>{{ $ini }} </td>
-            <td>{{ $cc }}</td>
-            <td>{{ $eform }}</td>
-            <td>{{ $natout }}</td>
-            <td>{{ $inter }}</td>
-            <td>{{ $description }}</td>
-            </tr>
+            <tr @foreach ($info as $x)    >           
+            <td>{{ $x->phone }} </td>
+            <td>{{ $x->code }}</td>
+            <td>{{ $x->eform }}</td>
+            <td>{{ $x->national }}</td>
+            <td>{{ $x->international }}</td>
+            <td>{{ $x->carrier }}</td>
+            </tr @endforeach>
         </tbody>
     </table>
 </head>

@@ -14,10 +14,11 @@ use App\Http\Controllers\PhoneInput;
 |
 */
 
-Route::view('/', 'index');
-Route::get('/', [PhoneInput::class,'regions']);
-Route::view('/trial', 'sketch');
+//input region
+Route::view("/", "index");
+Route::get("/", [PhoneInput::class, "regions"]);
+Route::view("/trial", "sketch");
 
-Route::get('/trial', [PhoneInput::class,'internationalFormat']);
-// Route::get('/trial', [PhoneInput::class,'nationalFormat']);                                                                                                              
-
+Route::get("/trial", [PhoneInput::class, "number"]);
+// Route::get("/trial", [PhoneInput::class, "internationalFormat"]);
+// Route::get('/trial', [PhoneInput::class,'nationalFormat']);
